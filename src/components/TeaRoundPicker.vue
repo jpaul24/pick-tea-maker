@@ -92,7 +92,7 @@ export default {
             eligibleTeaMakers.push(teaMaker);
           }
         } else {
-          // this else is to ensure if all tea makers have done the same amount of rounds then they
+          // this else is to ensure if all tea makers have done the same amount of rounds then they are all pushed to the eligible ream makers array
           eligibleTeaMakers.push(teaMaker);
         }
       });
